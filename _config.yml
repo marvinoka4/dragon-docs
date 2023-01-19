@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Search Station Documentation
+description: Standardized Documentation for Search Station Processes
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://marvinoka4.github.io/ss-documentation
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/marvinoka4/ss-documentation
