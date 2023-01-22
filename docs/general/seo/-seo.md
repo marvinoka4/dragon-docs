@@ -14,7 +14,7 @@ permalink: /docs/general/seo
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 ---
 
 ### The standard Lorem Ipsum passage, used since the 1500s
