@@ -80,20 +80,20 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
+  "Search Station on GitHub":
     - "//github.com/marvinoka4/ss-documentation"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
-nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/marvinoka4/ss-documentation
+#nav_external_links:
+#  - title: Search Station on GitHub
+#    url: https://github.com/marvinoka4/ss-documentation
 
 
 # Footer content
@@ -102,8 +102,6 @@ nav_external_links:
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
-
-markup / liquid-based content.
 footer_content: "Copyright &copy; 2023 Built with ♡ <a href=\"https://searchstation.co.uk/\">Search Station.</a>"
 
 # Footer last edited timestamp
