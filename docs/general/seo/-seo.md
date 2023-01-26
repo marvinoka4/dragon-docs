@@ -4,7 +4,7 @@ title: SEO
 parent: General
 has_children: true
 nav_order: 2
-permalink: /docs/general/seo
+permalink: /general/seo
 ---
 
 # SEO

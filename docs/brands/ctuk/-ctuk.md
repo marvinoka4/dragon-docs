@@ -4,7 +4,7 @@ title: CTUK
 parent: Brands
 has_children: true
 nav_order: 1
-permalink: /docs/brands/ctuk
+permalink: /brands/ctuk
 ---
 
 # CTUK

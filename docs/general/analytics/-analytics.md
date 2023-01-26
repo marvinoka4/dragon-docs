@@ -4,7 +4,7 @@ title: Analytics
 parent: General
 has_children: true
 nav_order: 4
-permalink: /docs/general/analytics
+permalink: /general/analytics
 ---
 
 # Analytics

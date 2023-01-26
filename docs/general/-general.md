@@ -3,7 +3,7 @@ layout: default
 title: General
 has_children: true
 nav_order: 4
-permalink: /docs/general
+permalink: /general
 ---
 
 # General

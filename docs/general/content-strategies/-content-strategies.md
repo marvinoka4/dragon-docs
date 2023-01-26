@@ -4,7 +4,7 @@ title: Content Strategies
 parent: General
 has_children: true
 nav_order: 3
-permalink: /docs/general/content-strategies
+permalink: /general/content-strategies
 ---
 
 # Content Strategies

@@ -3,7 +3,7 @@ layout: default
 title: Brands
 has_children: true
 nav_order: 2
-permalink: /docs/brands
+permalink: /brands
 ---
 
 # Brands
