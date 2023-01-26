@@ -30,16 +30,16 @@ There are three aspects to be considered in order to successfully pull Event (& 
         'event_parameter1': parameter1,'event_parameter2': parameter2, 'event_parameter2' : 'String'
     });
     ```
-5. Note the format for event and event parameters (not just for forms). It is called snake case – all lowercase with underscore between words. It is highly recommended to abide by this for consistency and because Google advises it as part of their machine learning metric.
+5. Note the format for event and event parameters. It is called snake case – all lowercase with underscore between words. It is highly recommended to abide by this for consistency and because Google advises it as part of their machine learning metric.
 
 ### Google Tag Manger (GTM)
 1. This aspect can be managed by the marketing manager, regardless, it would be done with events and parameters set by the developer and pushed from the website. 
 2. On the Google Tag Manager platform, in the container created for the website to be tracked, import the Search Station Master Tag that contains a preset of custom triggers for events to be tracked (in line with a standard coding naming system). Download the Search Station Master Tag by [clicking this link](https://github.com/marvinoka4/ss-documentation/blob/567d2d8cfefb27dfdde85ccb5ccaa605dbafec22/assets/tags/GTM-SearchStationMasterTag.json). 
 3. Then go to the "Admin" section of GTM. Select "Import Container". On the canvas that slides in, "Choose container file" and upload the downloaded Master Tag. Choose workspace by selecting "Existing" and choosing the "Default Workspace" from the canvas that slides in. The import option to be chosen is "Overwrite". Then "Confirm".
 4. Once this is done, the following should be edited;
-   - The title of the Config tag - GA4 Config | [Website Tracked] - can be edited when selected from the "Tag" section of the GTM platform. E.g. (GA4 Config | [Website Tracked]) can be changed to (GA4 Config | [Demo Website]).
+   - The title of the Config tag - GA4 Config - [Website Tracked] - can be edited when selected from the "Tag" section of the GTM platform. E.g. (GA4 Config - [Website Tracked]) can be changed to (GA4 Config - [Demo Website]).
    - The Measurement ID on the Tag Configuration canvas. Check "point 5." below to see where to get this from.
-   - Ensure that the Search Station Master Tag points to the configuration tag. As in the case of the example above - GA4 Config | [Demo Website].
+   - Ensure that the Search Station Master Tag points to the configuration tag. As in the case of the example above - GA4 Config - [Demo Website].
 5. From Google Analytics 4, set up the property of the site to be tracked (if the property isn't already set-up). In the course of setting up the property, a data stream would be created, this data stream contains a Measurement ID with the format "G-XXXXXXXXXX". Take note of this Measurement ID. If the property exists, the Measurement ID can be gotten from the "Admin" section, there you'd see "Data Streams". Select the data stream of the website to be tracked. Copy the Measurement ID from the Data Stream in GA4 and paste it in the Tag Configuration-Measurement ID section of GTM.
 6. Once this has been set up, use the GTM "Preview" feature to test that GTM is connected and the desired events are tracked. Once satisfied, use the "Submit" feature to publish, add a descriptive name to the version and "Publish".
 
